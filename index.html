@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bootstrap Exercice</title>
+</head>
+
+<body>
+
+    <!-- container fluide sur header -->
+    <header class="bg-dark">
+        <!-- menu burger -->
+        <div class="collapse container" id="navbarToggleExternalContent">
+            <div class="row bg-dark p-4 d-flex pl-2 justify-content-between">
+                <div class="col-md-9 col-xs-12">
+                    <h5 class="text-white h4">About</h5>
+                    <p class="text-light-emphasis"> add some information about the album below, the author, or any other
+                        background context. make it a few sentences long so folks can pick up some informative tidbits.
+                        Then, link them off to some social networking sites or contact information</p>
+                </div>
+                <div class="col-md-3 col-xs-2">
+                    <h5 class="text-white h4">Contact</h5>
+                    <ul class="px-0">
+                        <li>
+                            <a href="#" class="text-white">Follow on Twitter</a>
+                        </li>
+                        <li><a href="#" class="text-white">Email me</a></li>
+                        <li><a href="#" class="text-white"> Like on Faceboock</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center text-decoration-none text-white col-md-6">
+                    <img src="img/icon-cam 1-2.svg" alt="icone logo" class="me-2" /><strong>Album</strong>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- fin menu burger -->
+    </header>
+
+    <section class="container text-center py-5">
+        <div class="row">
+            <!-- ancre pour scroll auto sur la div et le h1 en lien avec le a en fin de page -->
+            <div class="col col-lg-6 col-md-8  col-sm-10 mx-auto
+            scrollspy-example" tabindex="0" data-bs-spy="scroll" data-bs-target="#simple-list-example"
+                data-bs-offset="0" data-bs-smooth-scroll="true">
+                <h1 id="simple-list-item-1">Album example</h1>
+                <p>Something short and leading about the collection below-its contents, the creator, ect. Make it short
+                    and
+                    sweet, but not too short so folks don't simply skip over it entirely.</p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-cards text-bg-light py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md g-3">
+                <!-- card1 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- car 4 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 9 -->
+                <div class="col">
+                    <div class="card shadow-sm" style="width: auto;">
+                        <img src="img/photo.jpg" class="card-img-top" alt="photo card">
+
+                        <div class="card-body">
+
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+
+                            <div class="btn-toolbar justify-content-between" role="toolbar"
+                                aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                </div>
+                                <div class="input-group align-content-center">
+                                    <div class="text">9 mins</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-9">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis pariatur voluptatem nesciunt
+                        delectus magni.<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Maiores accusamus
+                        quis adipisci.</p>
+                </div>
+                <div class="col-3 text-end">
+                    <div id="simple-list-example"
+                        class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                        <a class="p-1 rounded" href="#simple-list-item-1">Back to top</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

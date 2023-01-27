@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: var(--white);
+        --bg: var(--black);
+        --title: var(--white);
+    }
+}
